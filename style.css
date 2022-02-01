@@ -24,6 +24,15 @@
   touch-action: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .range-slider__thumb-right,
+  .range-slider__thumb-left {
+    margin-top: -22px;
+    height: 44px;
+    width: 15px;
+  }
+}
+
 /* cursor over all slider, so that if the cursor moves out of the thumb, it's still grabbing */
 .range-slider_dragging,
 .range-slider_dragging .range-slider__thumb-right,
