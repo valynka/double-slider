@@ -21,6 +21,7 @@
   background: url("https://cdn.glitch.com/f31a0269-092d-4acd-b6b1-6dc9cb3edf64%2Frange-thumb-icon.svg?v=1582845921297") left center no-repeat;
   background-size: cover;
   cursor: grab;
+  touch-action: none;
 }
 
 /* cursor over all slider, so that if the cursor moves out of the thumb, it's still grabbing */
